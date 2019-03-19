@@ -1,0 +1,101 @@
+ body,
+ button,
+ input,
+ textarea{
+     color: black;;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 16px;
+     line-height: 1.8;
+ }
+
+
+ body
+ {
+     background-color: #EDEDED;
+     margin: 0;
+     font-family: 'Courier New', Courier, monospace;
+ }
+
+  header,footer{
+     background-color:black;
+     height: 100px;
+ }
+ .sidebar-right
+ {
+     background-color: blueviolet;
+     color: white;
+    
+ }
+
+
+
+ h1{
+     margin: 0;
+     color: red;
+ }
+ p{
+     margin: 0;
+ }
+
+ @media screen and (min-width:1120px)
+ {
+     .content-area{
+         display: flex;
+     }
+
+     .sidebar-right{
+         flex: 0 0 320px;
+     }
+ } 
+ /*Styling header*/
+
+
+ .site-header
+ {
+     height: 400px;
+     display: flex;
+     flex-flow: column;
+ }
+
+ .site-info{
+     flex-grow: 1; 
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+ }
+
+  .site-title{
+      margin: 0;
+      font-size: 2em;
+      font-weight: 300;
+      text-align: center;
+      color: white;
+      text-transform: uppercase;
+  }
+
+
+
+  .site-description{
+      text-align: center;
+      color: brown;
+      font-size: 1.2em;
+      margin-top: -.4;
+      font-style: italic;
+  }
+
+  .main-menu
+  {
+      padding: 1em 1em;
+      color:black;
+      background-color: rgb(233, 92, 41);
+
+  }
+
+
+  @media screen and (min-width:1120px)
+  {
+      .site-title{
+          font-size: 4em;
+      }
+  }
+
