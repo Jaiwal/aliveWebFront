@@ -1,0 +1,478 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+body{
+  /*font-family: 'Oswald', sans-serif; */
+    
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+
+
+header{
+
+  background-color: white;
+
+
+}
+
+header a{
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+header nav li{
+    display: inline-block;
+}
+
+
+header #logo{
+  font-size: 2em;
+  font-family: 'Playfair Display', serif; 
+}
+
+header nav a{
+  transition: background-color 0.4s;
+}
+header nav a:hover{
+  background-color: rgb(0,0,0,.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* INTRO */
+
+#intro{
+  min-height: 450px;
+    background-image: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+   background-size:cover;
+   background-attachment: fixed;
+  }
+
+
+ .intro-text{
+   position: relative;
+   text-align: center;
+   top: 100px;
+
+ }
+
+ .intro-text h2{
+  color: white;
+  background-color: rgba(0,0,0,.4);
+   padding: 15px;
+ }
+
+ .intro-text p{
+  color: white;
+  background-color: rgba(0,0,0,.4);
+   padding: 10px;
+ }
+
+
+ 
+  .intro-text .call-to-action a{
+  
+   background-color: rgb(199, 33, 41);
+    color:#fff;
+    padding: 15px;
+    display: inline-block;
+    margin: 20px 0px 50px;
+    text-decoration: none;
+    transition: box-shadow 0.4s;
+ }
+.intro-text .call-to-action a:hover{
+   box-shadow: 2px 2px 15px #d14040;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* welcome */
+
+
+#welcome{
+  background-color:#c9706c;
+  color:balck;
+ 
+  padding-bottom: 50px;
+  padding-top: 50px;
+  
+}
+
+#welcome h1{
+  padding: 15px;
+  text-align: center;
+  font-size: 2em;
+
+
+}
+
+#welcome p{
+  padding: 10px;
+  text-align: center;
+}
+
+.services-container,.works-container{
+  max-width:700px;
+  margin: 10px auto;
+
+}
+
+.service{
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.service-title{
+  padding: 15px;
+ 
+  border-bottom: 1px solid  white;
+  font-size: 1.4em;
+
+}
+
+
+
+
+
+
+
+.work{
+  height: 300px;
+  margin: 20px 10px;
+  background-size: cover;
+  position: relative;
+}
+
+
+.work.one{
+  background-image: url("https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+}
+
+
+.work.two{
+  background-image: url("https://images.unsplash.com/photo-1516570161787-2fd917215a3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+}
+
+
+
+.work.three{
+  background-image: url("https://images.unsplash.com/photo-1526583873938-c453ebed6950?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+}
+
+.work.four{
+  background-image: url("https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+}
+
+.works-container .work-title h4{
+  color: white;
+}
+
+.work-title{
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(0,0,0,.5);
+
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+
+
+
+/* blog */
+
+#blog{
+  text-align: center;
+}
+
+#blog h2{
+    padding: 15px;
+    
+}
+
+#blog .call-to-action{
+  margin: 10px 0px 20px;
+
+}
+#blog .call-to-action a,.article-button a{
+  background-color: rgb(199, 33, 41);
+  color:#fff;
+  padding: 15px;
+  display: inline-block;
+  
+  text-decoration: none;
+  transition: box-shadow 0.4s;
+ 
+}
+#blog .call-to-action a:hover,.article-button a:hover{
+box-shadow: 2px 2px 15px #d14040;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.articles-container{
+  max-width: 700px;
+  margin: auto;
+}
+
+.article{
+  margin: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgb(0,0,0,.2);
+}
+
+.article-date{
+   padding: 15px;
+   color: white;
+   background-color: black;
+}
+
+.article-title{
+  padding: 15px;
+
+}
+
+.article-text{
+  padding:0px 15px 10px; 
+}
+
+
+.article-button{
+  width: 50%;
+  
+  margin: auto;
+
+}
+
+.article-button a{
+  margin: 20px;
+}
+
+
+
+/* testimonials */
+
+#testimonials{
+  background-color: white;
+  text-align: center;
+  padding-bottom:50px; 
+
+
+}
+#testimonials h2{
+  padding:15px;
+  font-size: 1.7em;
+
+}
+#testimonials h3{
+  padding: 0px 15px ;
+  font-size: 1.2em;
+}
+
+
+.testimonial{
+
+  margin: 20px;
+ 
+  padding: 10px;
+
+
+}
+.testimonial img{
+  height: 150px;
+  width: 150px;
+  margin:20px auto;
+  border-radius: 50%; 
+}
+
+.testimonial p{
+  padding: 10px 0px;
+
+}
+
+
+
+
+
+
+
+/* footer */
+
+
+footer{
+  background-color: #292723;
+  color: white;
+  padding: 20px;
+}
+
+
+
+footer .services ul{
+  list-style-type: none;
+}
+
+footer .services li{
+  padding: 5px 0px;
+}
+
+
+footer .services h5{
+  padding: 15px 0px;
+  font-size: 1.2em;
+}
+
+footer .services {
+  margin-bottom:20px ;
+}
+
+footer .services a{
+  color:white;
+}
+
+
+footer .contact-info p{
+   padding: 10px 0px;
+}
+
+footer .contact-form{
+  padding: 20px 0px;
+}
+footer .contact-form input{
+  width: 100%;
+  height: 50px;
+  margin: 10px 0px;
+}
+footer .contact-form button{
+  background-color: rgb(199, 33, 41);
+  color:#fff;
+  padding: 15px;
+  display: inline-block;
+  margin: 10px 0px;
+  text-decoration: none;
+  transition: box-shadow 0.4s;
+  border: none;
+ 
+}
+
+
+
+
+
+/* making responsive */
+
+
+
+@media screen and (min-width:750px){
+header #logo{
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+
+}
+
+header nav{
+  display: inline-block;
+  width: 60%;
+}
+
+
+#intro {
+  height: 500px;
+}
+
+.intro-text p{
+  
+   top: 200px;
+ }
+
+
+
+ .services-container{
+   max-width: 500px;
+ }
+
+
+    .works-container .work{
+      display: inline-block;
+      width: 46%;
+
+    }
+
+
+
+    #blog  .article,.testimonial{
+      /* float: left; */
+      display: inline-block;
+      width:44%;
+    }
+
+
+    #blog .articles-container::after,#testimonials,.testimonials-container:after{
+      content:'';
+      display: block;
+       clear:both;
+    }
+
+  footer .services,footer .contact-info{
+    display: inline-block;
+    width: 46%;
+
+
+  }
+
+  footer .contact-form input{
+    width: 70%;
+  }
+
+
+  footer  .contact-form button{
+    margin-left: 20px;
+
+  }
+
+}
